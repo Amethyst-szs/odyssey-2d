@@ -85,7 +85,7 @@ void DimensionPatcher::update(StageScene* scene, PlayerActorHakoniwa* p1, bool i
         SaveDataAccessFunction::startSaveDataWrite(scene->mHolder.mData);
     }
 
-    if(al::isPadHoldL(-1) && al::isPadTriggerUp(-1)) {
+    if(al::isPadHoldL(-1) && al::isPadTriggerUp(-1) && mTotalSwaps > 0) {
         mTotalSwaps--;
 
         // HUD Update
