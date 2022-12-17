@@ -1,4 +1,10 @@
-# Starlight — SMO Base Project
+# Starlight — 2D Mario in 3D Mod!
+
+This mod was created by Amethyst-szs! This repo allows 2D Mario to move around in 3D and play through the game that way!
+
+*ONLY SUPPORTS VERSION 1.0 OF SMO*
+
+## General Starlight Information:
 
 This repo contains a base project that can be used to create code modifications for Super Mario Odyssey v1.0.0. It's main purpose is to give people a project that contains headers that can be used to more easily create mods that does more to the game than what can normally be done through romfs editing alone. it also contains example code to show how to do certain things within the starlight environment.
 
